@@ -1,0 +1,9 @@
+注意事项：
+
+
+      CMake安装时要将安装目录添加到系统环境变量PATH。
+
+      在安装Visual Studio Community 2017时，需要将与Windows C/C++开发有关的Tools、SDK都选中；否则，后续通CMake生成VS2017工程时，可能出现如下错误，如果出现下述错误，添加相应组件重新安装即可：
+ ———————————————— 
+版权声明：本文为CSDN博主「wwchaonj」的原创文章，遵循CC 4.0 by-sa版权协议，转载请附上原文出处链接及本声明。
+原文链接：https://blog.csdn.net/wwchao2012/article/details/81592094
